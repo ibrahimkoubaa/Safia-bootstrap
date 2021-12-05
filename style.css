@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.opacity {
+    opacity: 50%;
+    font-weight: bolder;
+}
+
+.gap-5 {
+    gap: 9rem!important;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #070E27;
+}
+
+.btn-nav {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #162044;
+    border: none;
+}
+
+.bg-transparent {
+    border: 1px solid #162044;
+    border-radius: 16px;
+}
+
+.p-global {
+    color: #7E8BB6;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.border-back {
+    border-bottom: 1px solid rgba(78, 90, 133, 0.2);
+}
+
+.navbar span {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #CCD2E9;
+}
+
+.width {
+    max-width: 350px;
+}
+
+.rounded {
+    border-radius: 35px;
+}
+
+.rounded button {
+    background: #689EFF;
+    border: none;
+}
+
+header h1,
+.money {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.tow .card {
+    background: #081131;
+    box-shadow: 0px 35px 45px rgba(7, 14, 39, 0.05);
+    border-radius: 16px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.card-main .card {
+    background: #162044;
+    box-shadow: 0px 35px 45px rgba(7, 14, 39, 0.05);
+    border-radius: 16px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+ul li {
+    color: #CCD2E9;
+}
+
+footer {
+    background: #162044;
+    font-size: 14px;
+    line-height: 24px;
+    color: #CCD2E9
+}
