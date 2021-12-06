@@ -30,16 +30,29 @@ main {
 
 .btn-nav {
     color: #FFFFFF;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
     background-color: #162044;
-    border: none;
+}
+
+.container-modify {
+    padding: 0 40px;
+}
+
+.raduis {
+    border-radius: 0.50rem;
 }
 
 .bg-transparent {
     border: 1px solid #162044;
     border-radius: 16px;
+}
+
+.py-5-modify {
+    padding-top: 4rem!important;
+    padding-bottom: 4.5rem!important;
+}
+
+.mb-5-modify {
+    margin-bottom: 32px;
 }
 
 .p-global {
@@ -50,11 +63,12 @@ main {
 }
 
 .border-back {
-    border-bottom: 1px solid rgba(78, 90, 133, 0.2);
+    border-bottom: 1px solid #4e5a8580;
+    padding: 1.5rem 5rem;
 }
 
 .navbar span {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
 }
 
